@@ -1,5 +1,5 @@
-# This script presents all steps to cluster students' answers into group 
-#     in order to discover hidden patterns in students answers.
+# This script presents all steps to cluster students' answers into groups 
+#     in order to discover hidden patterns in students' answers.
 
 # For clustering, we used k-means clustering algorithm.
 
