@@ -32,13 +32,13 @@ Lowercasing the text data: Entire collection of texts are converted to lowercase
 
 We also removed words appearing in less than 10% of answers in the corpus and those words appearing in question sentence.
 
- ## Guide for Usage the Code
+   ### Guide for Usage the Code
 
 1. Install libraries
 2. Change paths of directories for reading and writing files
 4. Run the code
 
-## Outputs of the Code
+    ### Outputs of the Code
 All output files are saved in the 'outDir'. The outputs of the code are listed below:
 
 1.**Cluster i_matrix.csv**: This is the matrix of students-words in each cluster i. Each entity of the matrix shows the presence/absence (binary) of a word in the corresponding student answer.
