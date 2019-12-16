@@ -52,7 +52,7 @@ All output files are saved in the 'outDir'. The outputs of the code are listed b
  
 The dataset used in the project was downloaded from the archive hosted at the URL http://lit.csci.unt.edu/index.php/Downloads. It is available at the following link https://github.com/dbbrandt/short_answer_granding_capstone_project/tree/master/data/source_data/ShortAnswerGrading_v2.0 (accessed 16 December 2019).  
  
-The dataset  consists of students answers and model answers for 10 assignments and 2 exam questions. These exams and assignments are from the introductory computer science class in the University of North Texas. For each question, there is one model answer in the data. The answers have scored by two human judges, with a maximum 5 (correct answers) and minimum 0 (completely incorrect).
+The dataset  consists of students answers and model answers for 10 assignments and 2 exam questions. These exams and assignments are from the introductory computer science class in the University of North Texas. For each question, there is one model answer in the data. The answers have scores by two human judges, with a maximum 5 (correct answers) and minimum 0 (completely incorrect).
  
  
 [1] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (2018). Automatic Short Answer Grading and Feedback Using Text Mining Methods. arXiv preprint arXiv:1807.10543.
