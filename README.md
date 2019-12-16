@@ -45,5 +45,6 @@ All output files are saved in the 'outDir'. The outputs of the code are listed b
 
 2.**Cluster i_words.csv**: 'Cluster i_words' contains words and their frequencies in the cluster i. Frequency refers the number of students using the word in the answer. Words are oredered by the frequencies in descending order. 
 
-3. **Clusteri.png**: This figure shows the words clouds where words are used by students in the cluster i. The font and color of words indicate different frequencies of words. 
+3.**Clusteri.png**: This figure shows the words clouds where words are used by students in the cluster i. The font and color of words indicate different frequencies of words. 
 
+## What is 'M_Modelling.xlsx'?
