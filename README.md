@@ -5,7 +5,7 @@ This repository contains R codes for applying k-means clustering to the collecti
 
 ## What is 'Clustering.R'?
 
-**Clustering. R** is an R code that processes the collection of students' answers and create clusters of answers.  
+**Clustering. R** is an R code that processes the collection of students' answers and create clusters of answers, and calculate the distance between the students' answer and the model answer. 'Distance' refers the number of words that a student used from the model answer.   
 
 The code requires the following R packages: tm, pdist, SnowballC, factoextra, flexclust, wordcloud. Packages can be installed by
 
@@ -13,7 +13,7 @@ The code requires the following R packages: tm, pdist, SnowballC, factoextra, fl
 
 The script of the code contains 2 parameters of paths 'sourceDir' and 'outDir' described below:
 
-     sourceDir     : Directory with source files (students' asnwers files)
+     sourceDir     : Directory with source files (students' asnwers and the model answer files)
      outDir        : Directory to write processed files (frequencies and words in clusters) and figures (word clouds)
 
 These locations should be changed by the user for reading and writing files.
@@ -46,5 +46,14 @@ All output files are saved in the 'outDir'. The outputs of the code are listed b
 
 3.**Cluster i.png**: This figure shows the words clouds where words are used by students in the cluster i. The font and color of words indicate different frequencies of words. 
 
-[1] 
+4.**Distances.csv**: Tis file contains the distances between the sudents' answers and the model answers, i.e., the number of words that students used from the model answers.
+
+  ### The Dataset
+ 
+The dataset used in the project was downloaded from the archive hosted at the URL http://lit.csci.unt.edu/index.php/Downloads. It is available at the following link https://github.com/dbbrandt/short_answer_granding_capstone_project/tree/master/data/source_data/ShortAnswerGrading_v2.0 (accessed 16 December 2019).  
+ 
+The dataset  consists of students answers and model answers for 10 assignments and 2 exam questions. These exams and assignments are from the introductory computer science class in the University of North Texas. For each question, there is one model answer in the data. The answers have scored by two human judges, with a maximum 5 (correct answers) and minimum 0 (completely incorrect).
+ 
+ 
+[1] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (2018). Automatic Short Answer Grading and Feedback Using Text Mining Methods. arXiv preprint arXiv:1807.10543.
 
