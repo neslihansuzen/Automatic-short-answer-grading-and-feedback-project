@@ -69,7 +69,7 @@ DTM = removeSparseTerms(DTM,0.9)
 DDTM = as.matrix(DTM)
 
 # Remove those words appearing in question sentence.
-# Words should be described individually for each question. We removed words appearing in question sentence for the first question.
+# Words should be described for each question individually. Words appearing in question sentence are removed for the first question.
 # If there is a word appering in both model answer and the question sentence, this should not be removed. 
 DDTM = DDTM[ , !( colnames( DDTM ) %in% c('problem') ) ]
 DDTM = DDTM[ , !( colnames( DDTM ) %in% c('solv') ) ]
