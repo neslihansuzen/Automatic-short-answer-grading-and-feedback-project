@@ -1,7 +1,7 @@
 # Automatic-short-answer-grading-and-feedback-project
 R code for automatic short answer grading and feedback project
 
-This repository contains R codes for applying k-means clustering to the collection of students' answers in order to discover hidden patterns in answers. It also contains the calculation of the distance between the students' answers and the model answer that is used to apply a mathematical model to predict students' marks. Detailed description of the model can be found in [1]. All further calculations and ploting figures were done by using tools in Excel. 
+This repository contains R codes for applying k-means clustering to the collection of students' answers in order to discover hidden patterns in answers. It also contains the calculation of the distance between the students' answers and the model answer that is used to apply a mathematical model to predict students' marks. Detailed description of the model can be found in [1,2]. All further calculations and ploting figures were done by using tools in Excel. 
 
 ## What is 'Clustering.R'?
 
@@ -55,5 +55,7 @@ The dataset used in the project was downloaded from the archive hosted at the UR
 The dataset  consists of students answers and model answers for 10 assignments and 2 exam questions. These exams and assignments are from the introductory computer science class in the University of North Texas. For each question, there is one model answer in the data. The answers have scores by two human judges, with a maximum 5 (correct answers) and minimum 0 (completely incorrect).
  
  
-[1] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (2018). Automatic Short Answer Grading and Feedback Using Text Mining Methods. arXiv preprint arXiv:1807.10543. (in press). Procedia Computer Science. 
+[1] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (2018). Automatic Short Answer Grading and Feedback Using Text Mining Methods. arXiv preprint arXiv:1807.10543. 
+
+[2] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (in press). Automatic Short Answer Grading and Feedback Using Text Mining Methods. Procedia Computer Science. 
 
