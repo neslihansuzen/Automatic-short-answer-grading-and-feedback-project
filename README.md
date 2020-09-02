@@ -57,5 +57,5 @@ The dataset  consists of students answers and model answers for 10 assignments a
  
 [1] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (2018). Automatic Short Answer Grading and Feedback Using Text Mining Methods. arXiv preprint arXiv:1807.10543. 
 
-[2] Suzen, N., Gorban, A., Levesley, J., & Mirkes, E. (in press). Automatic Short Answer Grading and Feedback Using Text Mining Methods. Procedia Computer Science. 
+[2] Süzen, N., Gorban, A. N., Levesley, J., & Mirkes, E. M. (2020). Automatic short answer grading and feedback using text mining methods. Procedia Computer Science, 169, 726-743. 
 
