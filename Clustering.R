@@ -111,7 +111,7 @@ for (i in 1:3){
  vec = sort(colSums(ddtm),decreasing=TRUE)
  words = data.frame(word = names(vec),freq=vec)
  
- # Write tudent-word matrix and words
+ # Write student-word matrix and words
  filename = filename=paste('cluster',i) 
  
  write.csv(ddtm, file = paste0(outDir,'\\',filename,'_matrix',".csv" ))
